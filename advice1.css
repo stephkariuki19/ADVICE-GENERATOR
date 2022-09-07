@@ -1,0 +1,76 @@
+body{
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+}
+.container{
+    position: relative;
+    margin: 10px;
+    border-radius: 20px;
+    height: 250px;
+    width: 370px;
+    background-color: hsl(217, 19%, 24%);
+}
+.advice{
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+    
+    
+}
+.topic{
+    color: hsl(150, 100%, 66%);
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 7px;
+    margin-top: 30px;
+    font-size: 15px;
+    
+}
+.divider{
+    width: 300px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+.dice{
+    position: relative;
+    top: 45px;
+   
+    height: 20px;
+    width: 20px;
+    left:170px;
+}
+.dice-background{
+    border-radius: 50%;
+    background-color: hsl(150,100%,66%);
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 160px;
+    top: 75px;
+}
+.dice-background:hover{
+    box-shadow: 2px 2px 36px 4px hsl(150,100%,66%);
+}
+@media  screen and (max-width:375px) {
+  .divider{
+    position: relative;
+    width: 250px;
+  }
+  .dice{
+    position: relative;
+    left: 144px;
+  }
+  .dice-background{
+    position: relative;
+    left: 134px;
+  }
+}
